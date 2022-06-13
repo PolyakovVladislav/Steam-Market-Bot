@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_description">Основной канал уведомлений для Steam market bot</string>
+    <string name="status_working">Бот работает</string>
+    <string name="status_paused">Бот на паузе</string>
+    <string name="status_auto_pause">Бот на автопаузе</string>
+    <string name="status_pause_error">Бот на паузе из-за ошибок</string>
+    <string name="status_awaiting_login">Бот ожидает авторизации</string>
+    <string name="status_awaiting_internet">Бот ожидает подключение к cети</string>
+
+    <string name="status_description_session_on_pause">Следующая рабочая сессия:</string>
+    <string name="status_description_next_session_pause">Конец рабочей сессии:</string>
+
+    <string name="action_session_on">Начать рабочую сессию</string>
+
+    <string name="notification_content_text_instruction_timeout">Ошибка выполнения инструкции</string>
+    <string name="notification_content_text_connection_failed">Ошибка интерент соединения</string>
+
+    <string name="notification_foreground_service_channel_name">Главные уведомления</string>
+    <string name="notification_basic_channel_name">Второстепенный канал уведомлений</string>
+
+    <string name="notification_foreground_service_channel_description">Канал статичного уведомления и управления для бота</string>
+    <string name="notification_basic_channel_description">Второстепенный канал уведомлений</string>
+
+
+
+</resources>

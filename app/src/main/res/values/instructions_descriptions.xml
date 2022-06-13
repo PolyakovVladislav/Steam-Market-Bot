@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instruction_login_description">Выполняется авторизация</string>
+</resources>

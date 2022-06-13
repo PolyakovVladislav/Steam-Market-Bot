@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Orders buy
+    <integer name="CheckYourListingItemsOnlyOrderSeconds">300</integer>
+
+    //Manual buy
+    <dimen name="WaitBeforeCheckNextItemMilliseconds">1500</dimen>
+    <integer name="RandomRateForWaitBeforeCheckNextItemPercent">50</integer>
+
+    //Session
+    <integer name="WorkSessionLengthMinutes">30</integer>
+    <integer name="RandomRateForWorkSessionLengthPercent">15</integer>
+    <integer name="PauseLengthMinutes">10</integer>
+    <integer name="RandomRateForPauseLengthPercent">20</integer>
+
+    //ErrorsPause
+    <integer name="PauseInCaseOfErrorToMuchRequestsLengthMinutes">40</integer>
+    <integer name="RandomRateForPauseInCaseOfErrorToMuchRequestsLengthPercent">10</integer>
+
+    //Inventory
+    <bool name="CheckInventoryOnlyWhilePause">true</bool>
+    <integer name="CheckInventoryEveryMinutes">15</integer>
+    <integer name="RandomRateForCheckInventoryEveryPercent">25</integer>
+    <integer name="WaitBeforeSellNextItemSeconds">1</integer>
+    <integer name="RandomRateForWaitBeforeSellNextItemPercent">50</integer>
+
+    //HttpClient
+    <integer name="HttpClientCallTimeoutMilliseconds">2000</integer>
+    <string name="UserAgent">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36</string>
+
+    //Logic
+    <integer name="DefaultInstructionStepDelayMilliseconds">1500</integer>
+    <integer name="DefaultInstructionRandomRatePercent">50</integer>
+
+    //Inet
+    <bool name="UseOnlyWifi">false</bool>
+    <integer name="NewAttemptDelaySeconds">5</integer>
+    <integer name="MaxHttpRequestCount">5</integer>
+
+    //Wakelock
+    <integer name="WakeLockTimeoutMinutes">4</integer>
+</resources>
